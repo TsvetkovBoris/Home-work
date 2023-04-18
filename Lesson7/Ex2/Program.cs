@@ -32,9 +32,13 @@ int FindNumber(int[,] matrix, int rows, int columns)
     for (int j = 0; j < columns; j++)
     {
       if (number == matrix[i, j])
+      {
         Console.Write($"Номер строки: {i + 1} Номер столбца: {j + 1}");
+        return number;
+      }
     }
   }
+  Console.WriteLine("Такого числа в массиве нет");
   return number;
 }
 
