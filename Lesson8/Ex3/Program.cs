@@ -1,4 +1,4 @@
-﻿// Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+﻿// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
 (int rowsOne, int columnsOne, int rowsTwo, int columnsTwo) Start()
 {
@@ -25,7 +25,6 @@
     Console.Write("Введите количество столбцов для 2ой матрицы: ");
     columnsTwo = int.Parse(Console.ReadLine());
   }
-
   return (rowsOne, columnsOne, rowsTwo, columnsTwo);
 }
 
