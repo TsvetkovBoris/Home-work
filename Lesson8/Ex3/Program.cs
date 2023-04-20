@@ -3,14 +3,14 @@
 (int rowsOne, int columnsOne, int rowsTwo, int columnsTwo) Start()
 {
   Console.Write("Введите количество строк для 1ой матрицы: ");
-  int rowsOne = int.Parse(Console.ReadLine());
+  int rowsOne = Convert.ToInt32(Console.ReadLine());
   Console.Write("Введите количество столбцов для 1ой матрицы: ");
-  int columnsOne = int.Parse(Console.ReadLine());
+  int columnsOne = Convert.ToInt32(Console.ReadLine());
 
   Console.Write("Введите количество строк для 2ой матрицы: ");
-  int rowsTwo = int.Parse(Console.ReadLine());
+  int rowsTwo = Convert.ToInt32(Console.ReadLine());
   Console.Write("Введите количество столбцов для 2ой матрицы: ");
-  int columnsTwo = int.Parse(Console.ReadLine());
+  int columnsTwo = Convert.ToInt32(Console.ReadLine());
 
   while (columnsOne != rowsTwo)
   {
