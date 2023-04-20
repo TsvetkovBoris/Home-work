@@ -16,14 +16,14 @@
   {
     Console.WriteLine("Умножение таких матриц невозможно, количество столбцов 1ой матрицы должно равняться количеству строк 2ой");
     Console.Write("Введите количество строк для 1ой матрицы: ");
-    rowsOne = int.Parse(Console.ReadLine());
+    rowsOne = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите количество столбцов для 1ой матрицы: ");
-    columnsOne = int.Parse(Console.ReadLine());
+    columnsOne = Convert.ToInt32(Console.ReadLine());
 
     Console.Write("Введите количество строк для 2ой матрицы: ");
-    rowsTwo = int.Parse(Console.ReadLine());
+    rowsTwo = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите количество столбцов для 2ой матрицы: ");
-    columnsTwo = int.Parse(Console.ReadLine());
+    columnsTwo = Convert.ToInt32(Console.ReadLine());
   }
   return (rowsOne, columnsOne, rowsTwo, columnsTwo);
 }
